@@ -1,6 +1,6 @@
-import { NextPage } from 'next'
-import Link from 'next/link'
-import Layout from '../components/Layout'
+import { NextPage } from 'next';
+import Link from 'next/link';
+import Layout from '../components/Layout';
 
 const IndexPage: NextPage = () => {
   return (
@@ -32,7 +32,7 @@ const IndexPage: NextPage = () => {
         </li>
       </ul>
     </Layout>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;

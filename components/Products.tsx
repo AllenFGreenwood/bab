@@ -1,8 +1,10 @@
-import products from '../data/products.json'
-import { useShoppingCart, formatCurrencyString } from 'use-shopping-cart'
+import React from 'react';
+
+import products from '../data/products.json';
+import { useShoppingCart, formatCurrencyString } from 'use-shopping-cart';
 
 const Products = () => {
-  const { addItem, removeItem } = useShoppingCart()
+  const { addItem, removeItem } = useShoppingCart();
 
   return (
     <section className="products">
@@ -31,7 +33,7 @@ const Products = () => {
         </div>
       ))}
     </section>
-  )
-}
+  );
+};
 
-export default Products
+export default Products;
